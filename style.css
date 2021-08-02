@@ -10,7 +10,10 @@
 .fl{float:left;}
 .fr{float: right;}
 .fix{overflow: hidden;}
-body{font-family: 'Montserrat', sans-serif;}
+body{font-family: 'Montserrat', sans-serif;
+min-width: 960px;
+margin: 0 auto;
+padding: 0;}
 
 
 
@@ -20,8 +23,8 @@ body{font-family: 'Montserrat', sans-serif;}
 
 /* SIZING START HERE */
 
-.container{width: 1920px;margin:0 auto;}
-.structure{width: 1170px;margin:0 auto;}
+.container{width: 99%;margin:0 auto;}
+.structure{width: 80%;margin:0 auto;}
 
 /* SIZING ENDS HERE */
 
@@ -73,7 +76,7 @@ body{font-family: 'Montserrat', sans-serif;}
 }
 
 .headmenu ul li a:hover{
-    color: slategrey;
+    color: rgb(21, 65, 78);
 }
 
 .head-desc{
@@ -123,6 +126,8 @@ font-size: 16px; color: gray; padding-top: 170px;
 font-size: 48px; color: black; margin-top: 80px; margin-bottom: 110px;
 }
 
+
+
 .intro-head p{
     font-size: 16px;  margin-bottom: 120px;
 }
@@ -132,6 +137,11 @@ font-size: 48px; color: black; margin-top: 80px; margin-bottom: 110px;
 }
 .intro-desc h3{
     color: #304ffe; font-size: 18px; padding-bottom: 40px;
+}
+.intro-desc h3:hover{
+    color: rgb(21, 65, 78);
+    cursor: pointer;
+
 }
 .intro-desc p{
     font-size: 16px;
@@ -165,7 +175,7 @@ font-size: 48px; color: black; margin-top: 80px; margin-bottom: 110px;
 /* FEATURE START HERE */
 
 .feature{
-    padding-top: 190px;
+    padding-top: 100px;
     
 }
 
@@ -181,11 +191,30 @@ font-size: 48px; color: black; margin-top: 80px; margin-bottom: 110px;
         font-size: 48px;  color: #4c4c4c;  margin-top: 80px;  margin-bottom: 115px;
         }
  
-.first{
-        padding-left: 120px; padding-right: 80px;
+.first h4{
+        color: #808080;
     }
-.second{
-        padding-right: 100px;  
+.third h4{ 
+        color: #808080;
+
+    }
+
+    .first{
+        margin-right: 30px;
+    }
+
+    .third{
+        margin-left: 30px;
+    }
+    .first img:hover{
+        cursor: pointer;
+    }
+
+    .third img:hover{
+        cursor: pointer;
+    }
+    .fea-text{
+        margin-left: 110px;
     }
 
 .first, .third, h3{
@@ -241,11 +270,19 @@ font-size: 48px; color: black; margin-top: 80px; margin-bottom: 110px;
         } 
         
 .team-desc .first2{
-            padding-left: 145px; padding-right: 115px;
+            padding-left: 145px;
+        }
+        .team-desc .first2 img:hover{
+        cursor: pointer;
         }
 
+        .team-desc .second2 img:hover{
+            cursor: pointer;
+                    }
+
+
 .team-desc .second2{
-            padding-right: 145px;
+            padding-right: 120px;
         }
 
 .first2 .billy img{
@@ -261,7 +298,7 @@ font-size: 48px; color: black; margin-top: 80px; margin-bottom: 110px;
     }
 
 .first2 h3:hover, .second2 h3:hover{
-        color: gray; cursor: pointer;
+        color: rgb(21, 65, 78); cursor: pointer;
     }
 
 .team-desc .desc h3{
@@ -293,7 +330,12 @@ font-size: 48px; color: black; margin-top: 80px; margin-bottom: 110px;
 .price{
             margin-top: 170px;
         }
-
+.cardallele{
+    margin-left: 40px;
+}
+.cardallele p{
+    padding-right: 35px;
+}
 .price-head{
             text-align: center;
         }
@@ -303,8 +345,9 @@ font-size: 48px; color: black; margin-top: 80px; margin-bottom: 110px;
         }
 
 .card1{
-    border: 1px solid gray; text-align: center; border-radius: 5px; transition: 0.3s; margin-left: 100px;
-    margin-right: 25px; margin-bottom: 15px;
+    border: 1px solid gray; text-align: center; border-radius: 5px; transition: 0.3s;
+    margin-right: 25px; margin-bottom: 15px;  margin-left: 10px;
+
 }
 
 .card1:hover{
@@ -330,7 +373,7 @@ font-size: 48px; color: black; margin-top: 80px; margin-bottom: 110px;
 }
 
 .card4{
-    border: 1px solid gray; text-align: center; border-radius: 5px; transition: 0.3s; margin-right: 95px; 
+    border: 1px solid gray; text-align: center; border-radius: 5px; transition: 0.3s;
     margin-bottom: 15px;
 }
 
@@ -386,6 +429,11 @@ font-size: 48px; color: black; margin-top: 80px; margin-bottom: 110px;
     padding-top: 30px;  padding-bottom: 30px;
 }
 
+.subscribe .subback2{
+    margin-left: 130px;
+    cursor: pointer;
+}
+
 .suball p{
     line-height: 35px;
 }
@@ -434,18 +482,22 @@ font-size: 48px; color: black; margin-top: 80px; margin-bottom: 110px;
     font-size: 48px; margin-top: 80px; margin-bottom: 80px;
 }
 
+.cardall3{
+    margin-left: 40px;
+}
 .ncard1{
-    margin-left: 100px; margin-right: 30px; border: 1px solid gray; padding-bottom: 30px; transition: 0.3s;
+   margin-right: 30px; border: 1px solid black; padding-bottom: 30px; transition: 0.3s;
+   margin-left: 10px;
 }
 
 .ncard2{
-    margin-right: 30px;  border: 1px solid gray;  padding-bottom: 30px;  transition: 0.3s;
+    margin-right: 30px;  border: 1px solid black;  padding-bottom: 30px;  transition: 0.3s;
 
 
 }
 
 .ncard3{
-    border: 1px solid gray;  padding-bottom: 30px;  transition: 0.3s;
+    border: 1px solid black;  padding-bottom: 30px;  transition: 0.3s;
 }
 
 .ncard1 h2, p{
@@ -462,6 +514,7 @@ font-size: 48px; color: black; margin-top: 80px; margin-bottom: 110px;
 
 .loadmore{
     text-align: center;  padding-bottom: 10px;
+    padding-top: 500px;
 }
 .loadmore button{
     padding: 15px;  border-radius: 1000px; width: 20%;  cursor: pointer;
@@ -506,7 +559,7 @@ clear: both; content: ''; display: table;
 }
 
 .f1{
-padding-top: 100px; margin-left: 145px; margin-right: 145px; margin-bottom: 115px;
+padding-top: 80px; margin-right: 145px; margin-bottom: 115px;
 }
 
 .f1 ul li{
@@ -515,10 +568,18 @@ padding-top: 100px; margin-left: 145px; margin-right: 145px; margin-bottom: 115p
 
 .f1 ul li a{
     text-decoration: none;  color: gray;
+    font-weight: bold;
+}
+
+.f1 ul li a:hover{
+    color: rgb(21, 65, 78);
+}
+.f2 ul li a:hover{
+    color: rgb(21, 65, 78);
 }
 
 .f2{
-    padding-top: 100px;
+    padding-top: 80px;
 
 }
 .f2 ul li{
@@ -527,10 +588,12 @@ padding-top: 100px; margin-left: 145px; margin-right: 145px; margin-bottom: 115p
 
 .f2 ul li a{
     text-decoration: none; color: gray;
+    font-weight: bold;
+
 }
 
 .f3{
-    padding-top: 90px;  margin-left: 140px;  color: gray;
+    padding-top: 65px;  margin-left: 140px;  color: gray;
 }
 
 .f3 input{
@@ -539,7 +602,7 @@ padding-top: 100px; margin-left: 145px; margin-right: 145px; margin-bottom: 115p
 
 
 .f4{
-    padding-top: 90px; margin-left: 80px; color: gray;
+    padding-top: 65px; margin-left: 80px; color: gray;
 }
 
 .f4 ul{
@@ -554,8 +617,17 @@ padding-top: 100px; margin-left: 145px; margin-right: 145px; margin-bottom: 115p
     text-decoration: none;
 }
 
+.f4 ul li a:hover{
+    filter: invert();
+}
 .f5{
-    text-align: center;
+    margin-left: 350px;
+    color: gray;
+    margin-top: 30px;
+}
+
+.footerall{
+    margin-left: 70px;
 }
 
 .footer::after{
